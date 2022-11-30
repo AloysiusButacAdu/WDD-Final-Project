@@ -1,0 +1,99 @@
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.row.content {height: 450px}
+
+.sidenav {
+  padding-top: 20px;
+  background-color: #f1f1f1;
+  height: 100%;
+}
+
+footer {
+  background-color: #555;
+  color: white;
+  padding: 15px;
+}
+
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {height:auto;} 
+}
+
+body {
+  background-image: url("https://www.esports.net/wp-content/uploads/2020/01/what-is-esports.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.cells-container {
+  margin: 5% auto; 
+  width: 80%;
+}
+
+.cells_row {
+  overflow: hidden;
+  float: left;
+}
+
+.cell {
+  background-color: rgba(0, 0, 0, 0.7);
+  display: inline-block;
+  margin: 15px 50px;
+  max-width: 200px;
+  max-height: 200px;
+  flex: content;
+  text-align: center;
+  color: white;
+}
+
+.cell:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.col-sm img {
+  width: 200px;
+  height: 200px;
+}
+
+.custom-jelly {
+  position: relative;
+  border: 0;
+  padding: 12px 40px;
+  border-radius: 50px;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  outline: 0;
+}
+
+.btn-login {
+  color: white;
+  background-color: #D70DB6;
+  height: 30px;
+  width: 100px;
+  border: none;
+  border-radius: 15px;
+  float: left;
+}
+
+.btn-exit {
+  color: black;
+  background-color: #FFFFFF;
+  height: 30px;
+  width: 100px;
+  border: none;
+  border-radius: 15px;
+  float: right;
+}
+
+#siteNav {
+  background-color: #E3E3E3;
+}
