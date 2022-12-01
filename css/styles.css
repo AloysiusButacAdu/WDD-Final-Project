@@ -63,20 +63,10 @@ body {
   height: 200px;
 }
 
-.custom-jelly {
-  position: relative;
-  border: 0;
-  padding: 12px 40px;
-  border-radius: 50px;
-  font-size: 18px;
-  color: #fff;
-  cursor: pointer;
-  outline: 0;
-}
-
 .btn-login {
   color: white;
   background-color: #D70DB6;
+  margin-left: 50px;
   height: 30px;
   width: 100px;
   border: none;
@@ -87,6 +77,7 @@ body {
 .btn-exit {
   color: black;
   background-color: #FFFFFF;
+  margin-right: 50px;
   height: 30px;
   width: 100px;
   border: none;
@@ -96,4 +87,8 @@ body {
 
 #siteNav {
   background-color: #E3E3E3;
+}
+
+.row-container {
+  width: 100%;
 }
