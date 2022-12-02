@@ -26,11 +26,11 @@ footer {
 }
 
 body {
-  background-image: url("https://www.esports.net/wp-content/uploads/2020/01/what-is-esports.jpg");
+  background-image: url("https://esi.si.com/.image/c_fit%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1022/MTkzNTE0MTI3ODI1MDUzMTY4/worlds_2022_semifinals_day2_370.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
+  /* color: white; */
 }
 
 .cells-container {
@@ -63,26 +63,26 @@ body {
   height: 200px;
 }
 
-.btn-login {
+.btn-logout {
   color: white;
-  background-color: #D70DB6;
-  margin-left: 50px;
-  height: 30px;
-  width: 100px;
+  background-color: #f66b6b;
+  margin: 5px 10px 5px 5px;
+  height: 40px;
+  width: 130px;
   border: none;
-  border-radius: 15px;
-  float: left;
+  border-radius: 25px;
+  float: right;
 }
 
-.btn-exit {
-  color: black;
-  background-color: #FFFFFF;
-  margin-right: 50px;
-  height: 30px;
-  width: 100px;
+.btn-home {
+  color: white;
+  background-color: #f66b6b;
+  margin: 5px 25px 5px 5px;
+  height: 40px;
+  width: 130px;
   border: none;
-  border-radius: 15px;
-  float: right;
+  border-radius: 25px;
+  float: left;
 }
 
 #siteNav {
