@@ -17,11 +17,11 @@ body{
 }
 .center{
   position: absolute;
-  top: 50%;
+  top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 1000px;
-  height: 500px;
+  width: 700px;
+  height: 450px;
   background: white;
   border-radius: 10px;
   box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
@@ -35,7 +35,7 @@ body{
 .center form{
   padding: 0 40px;
   box-sizing: border-box;
-  width: 800px;
+  width: 600px;
   margin: auto;
 }
 form .txt_field{
