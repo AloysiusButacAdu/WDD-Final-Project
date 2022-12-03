@@ -1,0 +1,110 @@
+/* body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+body p{
+    font-size: 20px;
+    font-family: sans-serif;
+} */
+
+/* html {
+    box-sizing: border-boxs;
+} */
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: pink;
+    color: black;
+    font-size: large;
+}
+
+#headline{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+#headline-content {
+    width: 800px;
+    margin: 50px auto;
+    text-indent: 40px;
+    text-align: justify;
+}
+
+.column {
+    float: left;
+    width: 30%;
+    height: 600px;
+    margin-bottom: 16px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+    height: 600px;
+}
+
+
+/* .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+} */
+
+.title {
+    color: grey;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: black;
+    background-color: pink;
+    text-align: center;
+    cursor: pointer;
+    width: 86%;
+}
+
+.button:hover {
+    background-color: rgb(236, 10, 236);
+}
+
+@media screen and (max-width: 650px) {
+    .column {
+    width: 100%;
+    display: block;
+    }
+    
+}
+.card img {
+    float: left;
+    width: 70%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
+
+.card .btn {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.card-info {
+    margin: auto;
+}
+
+.btn-home {
+    color: black;
+}

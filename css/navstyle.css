@@ -1,0 +1,21 @@
+nav ul li {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.website-brand {
+  width: 60px;
+}
+
+.btn-logout {
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  background-color: #ff31ac;
+  margin: 5px 25px 5px 5px;
+  height: 40px;
+  width: 130px;
+  border: none;
+  border-radius: 25px;
+  float: right;
+}
