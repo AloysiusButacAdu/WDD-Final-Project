@@ -10,5 +10,6 @@ https://www.figma.com/file/kdcqijespLd1KFGY1NNhMv/Untitled?node-id=0%3A1&t=jpci6
 Project Contributors:
 * Butac, Aloysius
 * Acerado, Kenneth
-* Cariño, Caryll
+* Cariño, Caryl
 * Darang, Rainmier
+* Domingo, Jhad
