@@ -10,7 +10,7 @@ body{
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background: url(https://img.freepik.com/premium-vector/esports-twitch-banner-background-vector-template-linear-shapes-with-modern-purple-color-design_571381-438.jpg?w=2000);
+    background: url("https://img.freepik.com/premium-vector/esports-twitch-banner-background-vector-template-linear-shapes-with-modern-purple-color-design_571381-438.jpg?w=2000");
     background-repeat: no-repeat;
     background-size: cover;
     color: blueviolet;

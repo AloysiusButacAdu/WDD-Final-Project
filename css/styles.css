@@ -21,6 +21,11 @@
 
 #about-us-page {
   font-size: 20px;
+  background-position: 0px 200px;
+  /* background-image: url("https://c4.wallpaperflare.com/wallpaper/944/995/821/abstract-backgrounds-minimalistic-website-wallpaper-preview.jpg"); */
+  background-image: linear-gradient(#ffff, rgb(255, 148, 148));
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .cells-container {
