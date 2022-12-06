@@ -3,7 +3,6 @@
 }
 
 #landing-page {
-  /* background-image: url("https://esi.si.com/.image/c_fit%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1022/MTkzNTE0MTI3ODI1MDUzMTY4/worlds_2022_semifinals_day2_370.jpg"); */
   background-image: url("../assets/bg5.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -14,7 +13,7 @@
 #login-page {
   margin: 0;
   padding: 0;
-  background: url("https://worldfootballsummit.com/wp-content/uploads/2022/08/esports.jpeg");
+  background: url("../assets/bg-login.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -22,10 +21,19 @@
 #about-us-page {
   font-size: 20px;
   background-position: 0px 200px;
-  /* background-image: url("https://c4.wallpaperflare.com/wallpaper/944/995/821/abstract-backgrounds-minimalistic-website-wallpaper-preview.jpg"); */
   background-image: linear-gradient(#ffff, rgb(255, 148, 148));
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+#register-page {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: url("../assets/bg-register.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: blueviolet;
 }
 
 .cells-container {
