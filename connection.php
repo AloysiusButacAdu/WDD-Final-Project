@@ -1,4 +1,6 @@
 <?php 
+    session_start();
+
     $server = "localhost";
     $db = "login";
     $username = "root";
@@ -20,7 +22,9 @@
 
         if(mysqli_num_rows($result) == 1) {
 
-            header("Location: index.html");
+            // $_SESSION["login_status"] = "LOGOUT";
+            // header("Location: index.php");
+            header("Location: logout_to_index.php");
         }
         else {
 

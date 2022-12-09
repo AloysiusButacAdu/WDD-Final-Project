@@ -1,3 +1,10 @@
+<?php
+    session_start();
+
+    if($_SESSION["login_status"] == "LOGOUT") {
+        header("Location: login_to_index.php");
+    }
+?>
 <html>
     <head>
         <title>Test Login Form</title>
