@@ -7,7 +7,7 @@
 ?>
 <html>
     <head>
-        <title>Test Login Form</title>
+        <title>Login | Register</title>
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -25,7 +25,7 @@
     </head>
     <body id="login-page">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="index.php">
                 <img class="website-brand" src="assets/website-logo.png" alt="Tundra"/>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,7 +34,7 @@
 
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav mr-auto">
-                <li class="nav-item mx-5"> <a class="nav-link" href="aboutus.html">ABOUT US</a> </li>
+                <li class="nav-item mx-5"> <a class="nav-link" href="aboutus.php">ABOUT US</a> </li>
                 </ul>
             </div>
         </nav>
@@ -62,9 +62,9 @@
                     <input type = "submit" name = "Login" />
                 </p>
 
-                <div class="signup_link">
+                <!-- <div class="signup_link">
                     Dont have an account?  <a href="register.html">Register</a>
-                </div>
+                </div> -->
             </form>
 
         </div>

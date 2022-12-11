@@ -31,7 +31,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item mx-5"> <a class="nav-link" href="aboutus.html">ABOUT US</a> </li>
+                    <li class="nav-item mx-5"> <a class="nav-link" href="aboutus.php">ABOUT US</a> </li>
                 </ul>
             </div>
             <div>

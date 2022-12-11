@@ -21,13 +21,9 @@
         $result = mysqli_query($conn, $sql);
 
         if(mysqli_num_rows($result) == 1) {
-
-            // $_SESSION["login_status"] = "LOGOUT";
-            // header("Location: index.php");
             header("Location: logout_to_index.php");
         }
         else {
-
             header("Location: login.php");
         }
     }
