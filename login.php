@@ -61,10 +61,6 @@
                 <p>
                     <input type = "submit" name = "Login" />
                 </p>
-
-                <!-- <div class="signup_link">
-                    Dont have an account?  <a href="register.html">Register</a>
-                </div> -->
             </form>
 
         </div>
